@@ -1,4 +1,4 @@
-.image-200-icon {
+.image-200-icon2 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -34,7 +34,7 @@
   display: inline-block;
   z-index: 1;
 }
-.mask-group-1-12 {
+.mask-group-1-17 {
   align-self: stretch;
   height: 60px;
   position: relative;
@@ -86,7 +86,7 @@
 .dave-email {
   border: none;
   outline: none;
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-300);
   align-self: stretch;
   height: 50px;
   border-radius: var(--br-7xs);
@@ -124,7 +124,7 @@
 .register-button {
   border: none;
   outline: none;
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-300);
   align-self: stretch;
   height: 50px;
   border-radius: var(--br-7xs);
@@ -164,7 +164,7 @@
   width: 247px;
   position: relative;
   border-radius: var(--br-7xs);
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-300);
   display: none;
 }
 .password-confirmation {
@@ -194,7 +194,7 @@
 .icon-right {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-300);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -232,7 +232,7 @@
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
-.log-in {
+.log-in5 {
   height: 30px;
   width: 159px;
   position: relative;
@@ -244,7 +244,7 @@
   text-align: left;
   display: inline-block;
 }
-.button1 {
+.button6 {
   flex: 1;
   border-radius: var(--br-7xs);
   background-color: var(--color-goldenrod);
@@ -254,7 +254,7 @@
   justify-content: center;
   padding: var(--padding-3xs);
 }
-.button {
+.button5 {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -283,7 +283,7 @@
 .register {
   width: 100%;
   position: relative;
-  background-color: var(--color-whitesmoke-100);
+  background-color: var(--color-whitesmoke-200);
   overflow: hidden;
   display: flex;
   flex-direction: row;

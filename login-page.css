@@ -1,4 +1,4 @@
-.image-200-icon1 {
+.image-200-icon3 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -12,7 +12,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.button2 {
+.button7 {
   height: 50px;
   width: 519px;
   position: relative;
@@ -39,7 +39,7 @@
   display: inline-block;
   z-index: 2;
 }
-.mask-group-1-13 {
+.mask-group-1-18 {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -91,7 +91,7 @@
 .password-text-box {
   border: none;
   outline: none;
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-300);
   align-self: stretch;
   height: 50px;
   border-radius: var(--br-7xs);
@@ -132,7 +132,7 @@
   width: 518px;
   position: relative;
   border-radius: var(--br-7xs);
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-300);
   display: none;
   max-width: 100%;
 }
@@ -162,7 +162,7 @@
 .right-icon-instance {
   align-self: stretch;
   border-radius: var(--br-7xs);
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-300);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -188,7 +188,7 @@
   height: 20px;
   width: 20px;
   position: relative;
-  border-radius: 2px;
+  border-radius: var(--br-11xs);
   background-color: var(--white);
   border: 1px solid #545454;
   box-sizing: border-box;
@@ -219,7 +219,7 @@
   font-size: var(--text-body-2-size);
   font-weight: 500;
   font-family: var(--font-poppins);
-  color: var(--color-deepskyblue);
+  color: var(--primary-color);
   text-align: left;
   display: inline-block;
   z-index: 2;
@@ -241,7 +241,7 @@
   gap: var(--gap-xs);
   max-width: 100%;
 }
-.log-in1 {
+.log-in6 {
   height: 30px;
   width: 59px;
   position: relative;
@@ -254,7 +254,7 @@
   display: inline-block;
   white-space: nowrap;
 }
-.button4 {
+.button9 {
   flex: 1;
   border-radius: var(--br-7xs);
   background-color: var(--color-goldenrod);
@@ -266,7 +266,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.button3 {
+.button8 {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -343,7 +343,7 @@
   z-index: 2;
 }
 .google:hover {
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--white-shade-1);
 }
 .image-199-icon {
   height: 30px;
@@ -381,7 +381,7 @@
   z-index: 2;
 }
 .facebook:hover {
-  background-color: var(--color-gainsboro-100);
+  background-color: var(--white-shade-1);
 }
 .email-text {
   display: flex;
@@ -398,7 +398,7 @@
 .register-now {
   font-weight: 600;
   font-family: var(--font-poppins);
-  color: var(--color-deepskyblue);
+  color: var(--primary-color);
 }
 .new-member-here-container {
   height: 30px;
@@ -445,7 +445,7 @@
 .login-page {
   width: 100%;
   position: relative;
-  background-color: var(--color-whitesmoke-100);
+  background-color: var(--color-whitesmoke-200);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -479,7 +479,7 @@
     flex-wrap: wrap;
   }
 
-  .log-in1 {
+  .log-in6 {
     font-size: var(--text-body-2-size);
   }
 
@@ -501,7 +501,7 @@
 }
 @media screen and (max-width: 450px) {
   .parent-frame {
-    padding-top: 27px;
+    padding-top: var(--padding-8xl);
     padding-bottom: var(--padding-13xl);
     box-sizing: border-box;
   }
