@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kumbh Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-page">
+      <img class="image-200-icon1" alt="" src="./public/image-200@2x.png" />
+
+      <div class="button2"></div>
+      <div class="parent-frame">
+        <div class="parent-frame-child"></div>
+        <div class="first-child-frame">
+          <div class="welcome-to1">
+            <span class="welcome1">Welcome </span>t
+            <span class="welcome1">o </span>
+          </div>
+          <img
+            class="mask-group-1-13"
+            loading="eager"
+            alt=""
+            src="./public/mask-group-1-11@2x.png"
+          />
+        </div>
+        <form class="second-child-frame">
+          <div class="please-login-your-account-wrapper">
+            <div class="please-login-your">Please Login your account.</div>
+          </div>
+          <div class="password-input-frame-parent">
+            <div class="password-input-frame">
+              <div class="email1">Email</div>
+              <input
+                class="password-text-box"
+                placeholder="dave@gmail.com"
+                type="text"
+              />
+            </div>
+            <div class="password-parent">
+              <div class="password">Password</div>
+              <div class="right-icon-instance">
+                <div class="right-icon-instance-child"></div>
+                <input
+                  class="login-button"
+                  placeholder="*********"
+                  type="text"
+                />
+
+                <img class="icon-right3" alt="" src="./public/iconright.svg" />
+              </div>
+            </div>
+            <div class="social-media-frame">
+              <div class="google-facebook-frame">
+                <input class="remember-me-label" type="checkbox" />
+
+                <div class="remember-me">Remember me</div>
+              </div>
+              <div class="forgot-password">Forgot Password?</div>
+            </div>
+          </div>
+          <div class="button-frame">
+            <button class="button3" id="button1">
+              <div class="button4">
+                <div class="log-in1">Log In</div>
+              </div>
+            </button>
+            <div class="or-continue-with">Or Continue With</div>
+          </div>
+          <div class="email-text">
+            <button class="google">
+              <div class="google-child"></div>
+              <img
+                class="image-198-icon"
+                alt=""
+                src="./public/image-198@2x.png"
+              />
+
+              <div class="google1">Google</div>
+            </button>
+            <button class="facebook">
+              <div class="google-child"></div>
+              <img
+                class="image-199-icon"
+                alt=""
+                src="./public/image-199@2x.png"
+              />
+
+              <div class="facebook1">Facebook</div>
+            </button>
+          </div>
+          <div class="register1" id="registerContainer">
+            <div class="new-member-here-container">
+              <span class="new-member-here">New member here?</span>
+              <span class="register-now"> Register Now </span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          // Please sync "Dashboard Landlord" to the project
+        });
+      }
+
+      var registerContainer = document.getElementById("registerContainer");
+      if (registerContainer) {
+        registerContainer.addEventListener("click", function (e) {
+          window.location.href = "./register.html";
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+.image-200-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.register-form-child {
+  width: 744px;
+  height: 661px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: none;
+}
+.welcome {
+  text-transform: capitalize;
+}
+.welcome-to {
+  width: 121px;
+  height: 30px;
+  position: relative;
+  font-size: var(--heading-h5-size);
+  font-family: var(--font-poppins);
+  color: var(--black-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.mask-group-1-12 {
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.welcome-text {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.enter-your-information {
+  height: 30px;
+  width: 325px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  line-height: 30px;
+  font-family: var(--font-poppins);
+  color: var(--black-600);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.input-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-9xs);
+}
+.email {
+  width: 40px;
+  height: 24px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  font-family: var(--font-poppins);
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.dave-email {
+  border: none;
+  outline: none;
+  background-color: var(--color-whitesmoke-200);
+  align-self: stretch;
+  height: 50px;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-base);
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-2-size);
+  color: var(--color-darkgray);
+  min-width: 250px;
+  z-index: 1;
+}
+.firstname-frame {
+  width: 518px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.first-name {
+  width: 84px;
+  height: 24px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  font-family: var(--font-poppins);
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.register-button {
+  border: none;
+  outline: none;
+  background-color: var(--color-whitesmoke-200);
+  align-self: stretch;
+  height: 50px;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-base) var(--padding-mini);
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-2-size);
+  color: var(--color-darkgray);
+  min-width: 148px;
+  z-index: 1;
+}
+.input-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.create-password {
+  width: 137px;
+  height: 24px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  font-family: var(--font-poppins);
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.icon-right-child {
+  height: 50px;
+  width: 247px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.password-confirmation {
+  border: none;
+  outline: none;
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-2-size);
+  background-color: transparent;
+  height: 19px;
+  width: 68px;
+  position: relative;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.icon-right1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.icon-right {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-smi)
+    var(--padding-base);
+  z-index: 1;
+}
+.frame-quad {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  min-width: 161px;
+}
+.confirm-password {
+  width: 146px;
+  height: 24px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  font-family: var(--font-poppins);
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-triple {
+  width: 518px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.log-in {
+  height: 30px;
+  width: 159px;
+  position: relative;
+  font-size: var(--heading-h5-size);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+}
+.button1 {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  width: 521px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.register-form {
+  margin: 0;
+  width: 744px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 45px var(--padding-xl) var(--padding-31xl) var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  z-index: 1;
+}
+.register {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-105xl) var(--padding-xl) 239px;
+  box-sizing: border-box;
+}

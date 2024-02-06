@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "Onile group project",
+    "id": "65c0a7fd2b0918c0a5688d00",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\Aliyu\\OneDrive\\Desktop\\onile-1\\src\\components",
+    "screensPath": "c:\\Users\\Aliyu\\OneDrive\\Desktop\\onile-1\\src\\pages"
+  }
+}
